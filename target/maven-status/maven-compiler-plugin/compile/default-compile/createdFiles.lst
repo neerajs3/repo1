@@ -1,0 +1,9 @@
+config\ConfigFIle.class
+pages\ShoppingCart.class
+pages\Homepage.class
+pages\Registration.class
+testbase\TestBase$1.class
+testbase\TestBase.class
+pages\Payment.class
+pages\Shipping.class
+pages\Login.class
