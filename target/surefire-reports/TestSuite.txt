@@ -1,21 +1,17 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 2, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 410.244 s <<< FAILURE! - in TestSuite
-TestCases.LoginTest.login  Time elapsed: 30.228 s  <<< FAILURE!
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 201.582 s <<< FAILURE! - in TestSuite
+TestCases.LoginTest.login  Time elapsed: 151.152 s  <<< FAILURE!
 org.openqa.selenium.NoSuchElementException: 
-no such element: Unable to locate element: {"method":"xpath","selector":"(//*[contains(text(),'Sign In')])[1]"}
-  (Session info: chrome=85.0.4183.83)
+no such element: Unable to locate element: {"method":"css selector","selector":"*[name='firstname']"}
+  (Session info: chrome=85.0.4183.121)
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'CHETUIWK230', ip: '172.16.4.101', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+System info: host: 'CHETUIWK230', ip: '172.16.4.101', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_92'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.83, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\neerajs3\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:56349}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 3286258f77ab79222c34d911291595a2
-*** Element info: {Using=xpath, value=(//*[contains(text(),'Sign In')])[1]}
-	at TestCases.LoginTest.login(LoginTest.java:34)
-
-TestCases.LoginTest.quit  Time elapsed: 61.094 s  <<< FAILURE!
-java.lang.RuntimeException: Unexpected result for screenshot command: null
-	at TestCases.LoginTest.quit(LoginTest.java:79)
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\neerajs3\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:65059}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: d416c0a3ae9db09126a2ac7575517a64
+*** Element info: {Using=name, value=firstname}
+	at TestCases.LoginTest.login(LoginTest.java:51)
 
